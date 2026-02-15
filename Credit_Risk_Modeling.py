@@ -83,7 +83,7 @@ def run_simulation():
     print(f"Economic Capital (at 3x multiplier): ${results['Economic Capital']:,.2f}")
     print(f"Risk Contribution Loan A: ${results['Risk Contributions'][0]:,.2f}")
     print(f"Risk Contribution Loan B: ${results['Risk Contributions'][1]:,.2f}")
-
+***
     # Demonstrate Effect of Correlation
     print("\n--- Effect of Diversification ---")
     low_corr_results = calculate_portfolio_metrics(loan_a, loan_b, correlation=0.1)
